@@ -1,4 +1,4 @@
-from hello import more_hello, more_goodbye
+from hello import more_hello, more_goodbye, hru
 
 
 def test_more_hello():
@@ -7,3 +7,7 @@ def test_more_hello():
 
 def test_more_goodbye():
     assert "bye" == more_goodbye()
+
+
+def test_hru():
+    assert "How are you" == hru()
